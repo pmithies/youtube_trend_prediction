@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/static/background.png"); /* Replace with the path to your image */
+    background-size: 135%;
+    background-position: center;
+    text-align: center;
+    color: #fff; /* Set text color to a contrasting color for better readability on the background */
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: #FF0000;
+    margin-top: 20px;
+    font-size: 2em; /* Increase font size */
+}
+
+form {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add background opacity */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff; /* Set text color to white */
+    font-size: 1.2em; /* Increase font size */
+    background-color: rgba(0, 0, 0); /* Add background opacity */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.positive {
+    color: #009900; /* Green color for positive sentiment */
+}
+
+.negative {
+    color: #FF0000; /* Red color for negative sentiment */
+}
