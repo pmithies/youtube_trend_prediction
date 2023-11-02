@@ -1,5 +1,9 @@
-tensorflow
-keras
 gunicorn
-scikit-learn
 Flask
+pandas
+numpy
+scikit-learn
+tensorflow
+imbalanced-learn
+vaderSentiment
+joblib
