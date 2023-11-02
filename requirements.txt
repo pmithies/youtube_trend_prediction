@@ -1,0 +1,4 @@
+tensorflow
+keras
+gunicorn
+scikit-learn
